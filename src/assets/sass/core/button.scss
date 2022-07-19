@@ -1,0 +1,68 @@
+.top-right-button-container {
+    float: right;
+    position: relative;
+}
+
+.btn {
+    border-radius: 50px;
+    outline: medium none invert !important;
+    outline: initial !important;
+    box-shadow: none !important;
+    box-shadow: initial !important;
+    font-size: 0.8rem;
+    padding: 0.5rem 1.25rem 0.5rem 1.25rem;
+    transition: background-color box-shadow 0.1s linear;
+}
+
+.btn-primary {
+    background-color: $buttons-color;
+    border-color: $buttons-color;
+    color: #fff;
+
+    &:hover {
+        color: #fff;
+        background-color: darken($buttons-color, 8%);
+        border-color: darken($buttons-color, 8%);
+    }
+}
+
+.btn .btn-secondary {
+    background-color: $buttons-color;
+    border-color: $buttons-color;
+    color: #fff;
+}
+
+.btn-outline-primary {
+    color: $buttons-color;
+    border-color: $buttons-color;
+
+    &:hover {
+        color: #fff;
+        background-color: $buttons-color;
+        border-color: $buttons-color;
+    }
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: $warning-color;
+    border-color: $warning-color;
+}
+
+.table-buttons {
+    display: inline-flex;
+
+    & > button {
+        margin-right: 5px;
+    }
+}
+
+.loading-spinner {
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-right: 15px;
+}
+
+.bg-light {
+    background-color: #cfcfcf !important;
+}

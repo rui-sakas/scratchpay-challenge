@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'HeroNew';
+    src: local('HeroNew'),
+        url('../../fonts/hero-new/Hero-New-Regular.otf') format('truetype');
+    font-weight: bold;
+}
+
+.font-face-gm {
+    font-family: 'HeroNew';
+    color: $primary-text-color;
+}

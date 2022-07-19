@@ -1,0 +1,25 @@
+.navbar {
+  background: white;
+  height: 100px;
+  padding: 1.5rem 0;
+  box-shadow: 0 1px 15px rgb(0 0 0 / 4%), 0 1px 6px rgb(0 0 0 / 4%);
+  padding: 0px;
+
+  .navbar-logo {
+    width: auto;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+    .logo {
+      width: 100%;
+      height: 100%;
+      transform: scale(0.5);
+      background: url("../../../../public/assets/logo/scratchpay.svg") no-repeat;
+      background-position: center center;
+      display: block;
+    }
+  }
+}

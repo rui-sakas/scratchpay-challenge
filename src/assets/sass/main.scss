@@ -1,0 +1,58 @@
+//Global scss variables
+$background-color: #f8f8f8;
+$primary-text-color: #1d1c2f;
+$buttons-color: #5b70ff;
+$icons-color: #6d64ff;
+$caution-color: #ffb71b;
+$warning-color: #ff595a;
+$secondary-buttons-color: #60edce;
+
+$foreground-color: #ffb71b;
+
+$secondary-color: #5b70ff;
+
+@import './core/topbar.scss';
+@import './core/button.scss';
+@import './core/font.scss';
+@import './core/card.scss';
+@import './core/modal.scss';
+@import './core/form.scss';
+@import './core/pagination.scss';
+@import './core/toast.scss';
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'HeroNew';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.app-background {
+    height: 100vh;
+    background: $background-color;
+    min-width: min-content;
+}
+
+.main-content {
+    margin: 100px;
+}
+
+.login-content {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+.spinner {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

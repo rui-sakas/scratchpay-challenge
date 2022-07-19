@@ -1,0 +1,66 @@
+[
+    {
+        "id": "66da039d-4a76-41fb-b602-73f20048266d",
+        "email": "michaelscott@scratchpay.com",
+        "first_name": "Michael",
+        "last_name": "Scott",
+        "role": "Doctor",
+        "status": "Active"
+    },
+    {
+        "id": "66da039d-4a76-41fb-b602-l3f20048266g",
+        "email": "pambeesly@scratchpay.com",
+        "first_name": "Pam",
+        "last_name": "Beesly",
+        "role": "Admin",
+        "status": "Active"
+    },
+    {
+        "id": "66da039d-4a76-41fb-b602-73f200443661",
+        "email": "jimhalpert@scratchpay.com",
+        "first_name": "Jim",
+        "last_name": "Halpert",
+        "role": "Accountant",
+        "status": "Active"
+    },
+    {
+        "id": "66dam39d-4a76-41fb-b602-73f20048266i",
+        "email": "ryanhoward@scratchpay.com",
+        "first_name": "Ryan",
+        "last_name": "Howard",
+        "role": "Accountant",
+        "status": "Inactive"
+    },
+    {
+        "id": "66dad39d-4a76-41fb-b602-73f20048266i",
+        "email": "karenfilippelli@scratchpay.com",
+        "first_name": "Karen",
+        "last_name": "Filippelli",
+        "role": "Accountant",
+        "status": "Inactive"
+    },
+    {
+        "id": "66da039d-4a76-45fb-b602-73f200482661",
+        "email": "angelamartin@scratchpay.com",
+        "first_name": "Angela",
+        "last_name": "Martin",
+        "role": "Doctor",
+        "status": "Active"
+    },
+    {
+        "id": "66da039d-4a76-44fb-b602-73f200482661",
+        "email": "andybernard@scratchpay.com",
+        "first_name": "Andy",
+        "last_name": "Bernard",
+        "role": "Accountant",
+        "status": "Active"
+    },
+    {
+        "id": "66da039d-4a76-41fb-c602-73f200482661",
+        "email": "janlevinson@scratchpay.com",
+        "first_name": "Jan",
+        "last_name": "Levinson",
+        "role": "Admin",
+        "status": "Active"
+    }
+]
